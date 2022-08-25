@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{C666C1F4-882A-D284-842B-C813BA18E37E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DestroyOutOfBounds.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="37" Column="10" />
+      <File FileName="Assets/Scripts/MoveForward.cs" Line="17" Column="71" />
+      <File FileName="Assets/Scripts/DestroyOutOfBounds.cs" Line="22" Column="36" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="19" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProtoType2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="DestroyOutOfBounds.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd029ebf-7369-466b-a168-fc99896d6db7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

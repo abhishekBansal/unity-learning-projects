@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{55FB2A0A-326A-FC28-B54D-4E490E202EDB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ModTheCube/Cube.cs">
+    <Files>
+      <File FileName="Assets/Challenge 2/Scripts/SpawnManagerX.cs" Line="29" Column="69" />
+      <File FileName="Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" Line="19" Column="38" />
+      <File FileName="Assets/Challenge 2/Scripts/PlayerControllerX.cs" Line="20" Column="12" />
+      <File FileName="Assets/ModTheCube/Cube.cs" Line="10" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Play Fetch" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Challenge 2" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="ModTheCube" expanded="True">
+                <Node name="Cube.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd029ebf-7369-466b-a168-fc99896d6db7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

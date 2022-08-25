@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{DCE1035D-902D-8B97-6A80-E0F93BE2A059}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CongratScript.cs">
+    <Files>
+      <File FileName="Assets/CongratScript.cs" Line="13" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CWC2-ErrorProject" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d1639758-0f88-466a-96c6-895a3bc33093" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
