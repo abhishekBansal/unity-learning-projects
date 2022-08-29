@@ -42,19 +42,25 @@ public abstract class Unit : MonoBehaviour,
 
     private void Update()
     {
+
         if (m_Target != null)
         {
             float distance = Vector3.Distance(m_Target.transform.position, transform.position);
+            //Debug.Log("Distance to target: " + distance);
             if (distance < 2.0f)
             {
+                Debug.Log("calling building in range");
                 m_Agent.isStopped = true;
                 BuildingInRange();
             }
+        } else {
+          //  Debug.Log("Update: Target is null");
         }
     }
 
     public virtual void GoTo(Building target)
     {
+        Debug.Log("Go to building " + target.name);
         m_Target = target;
 
         if (m_Target != null)
@@ -68,6 +74,8 @@ public abstract class Unit : MonoBehaviour,
     {
         //we don't have a target anymore if we order to go to a random point.
         m_Target = null;
+        Debug.Log("Set target to null");
+
         m_Agent.SetDestination(position);
         m_Agent.isStopped = false;
     }
