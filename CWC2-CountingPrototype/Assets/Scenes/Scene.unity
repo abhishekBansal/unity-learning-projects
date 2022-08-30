@@ -190,7 +190,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d1617e67ce9424bee9959157c4c6f8f9, type: 2}
+  - {fileID: 2100000, guid: 02aa8732818144e60abf01ae3385910f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -483,6 +483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere
       objectReference: {fileID: 0}
+    - target: {fileID: 2432058540711041685, guid: e4d895f93d7f94d13af560307212a0b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2432058540711041689, guid: e4d895f93d7f94d13af560307212a0b2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -526,6 +530,10 @@ PrefabInstance:
     - target: {fileID: 2432058540711041689, guid: e4d895f93d7f94d13af560307212a0b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586543735306045995, guid: e4d895f93d7f94d13af560307212a0b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4d895f93d7f94d13af560307212a0b2, type: 3}
@@ -942,7 +950,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!65 &1357351970
 BoxCollider:

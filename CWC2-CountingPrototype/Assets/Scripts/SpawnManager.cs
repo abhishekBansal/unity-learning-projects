@@ -9,7 +9,8 @@ public class SpawnManager : MonoBehaviour
     public GameObject spherePrefab;
 
     [SerializeField] private float spawnRangeX = 1.5f;
-    [SerializeField] private float spawnRangeY = 1.5f;
+    [SerializeField] private float spawnRangeYStart = 1f;
+    [SerializeField] private float spawnRangeYEnd = 4f;
     [SerializeField] private float spawnRangeZ = 1.5f;
     // Start is called before the first frame update
 
@@ -34,7 +35,7 @@ public class SpawnManager : MonoBehaviour
 
     private Vector3 randomSpawnLocation() {
         return new Vector3(Random.Range(-spawnRangeX, spawnRangeX),
-            Random.Range(-spawnRangeY, spawnRangeY),
+            Random.Range(spawnRangeYStart, spawnRangeYEnd),
             Random.Range(-spawnRangeZ, spawnRangeZ));
     }
 

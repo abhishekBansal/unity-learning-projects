@@ -39,7 +39,7 @@ public class Sphere : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Sphere"))
         {
-            spawnManager.reportCollision();
+//            spawnManager.reportCollision();
         }
     }
     
